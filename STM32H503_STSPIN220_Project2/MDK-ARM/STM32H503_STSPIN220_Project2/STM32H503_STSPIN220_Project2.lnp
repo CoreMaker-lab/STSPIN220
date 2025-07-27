@@ -1,0 +1,27 @@
+--cpu=Cortex-M33
+"stm32h503_stspin220_project2\startup_stm32h503xx.o"
+"stm32h503_stspin220_project2\stspin220.o"
+"stm32h503_stspin220_project2\main.o"
+"stm32h503_stspin220_project2\gpio.o"
+"stm32h503_stspin220_project2\tim.o"
+"stm32h503_stspin220_project2\stm32h5xx_it.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_msp.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_cortex.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_rcc.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_rcc_ex.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_flash.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_flash_ex.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_gpio.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_dma.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_dma_ex.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_pwr.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_pwr_ex.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_exti.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_tim.o"
+"stm32h503_stspin220_project2\stm32h5xx_hal_tim_ex.o"
+"stm32h503_stspin220_project2\system_stm32h5xx.o"
+--strict --scatter "STM32H503_STSPIN220_Project2\STM32H503_STSPIN220_Project2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32H503_STSPIN220_Project2.map" -o STM32H503_STSPIN220_Project2\STM32H503_STSPIN220_Project2.axf
